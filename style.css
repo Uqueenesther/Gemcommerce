@@ -30,7 +30,7 @@ html, body {
 
 /* Section headers */
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -45,6 +45,23 @@ p {
   font-size: 1.1rem;
   color: #444;
 }
+.key-points-headings{
+  margin-bottom: 4rem;
+}
+.key-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.key-point .percentage {
+  font-weight: bold;
+  color: #f26522;
+  font-size: 1.2rem;
+  min-width: 40px;
+}
+
 
 /* Button */
 .button {
@@ -81,7 +98,7 @@ p {
 }
 .second-section {
   background-color: #F8F8F8;
-  padding: 60px 0;
+  margin-top: 10rem;
 }
 
 
