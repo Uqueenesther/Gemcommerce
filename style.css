@@ -13,6 +13,8 @@ body {
   line-height: 1.6;
   color: #161723;
   background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 html, body {
@@ -46,6 +48,7 @@ p {
 
 /* Button */
 .button {
+  font-family: 'Inter Tight', sans-serif;
   background: #EE6F4B;
   color: white;
   padding: 12px 25px;
@@ -58,8 +61,29 @@ p {
   text-decoration: none;
   line-height: 150%;
   letter-spacing: 0.5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  text-align: center;
 }
+
+
+.button:hover,
+.button:focus {
+  background-color: #d85c39; 
+  transform: scale(1.05);
+  outline: none;
+  box-shadow: 0 4px 8px rgba(238, 111, 75, 0.4);
+}
+
+.button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+.second-section {
+  background-color: #F8F8F8;
+  padding: 60px 0;
+}
+
 
 /* Flex layout */
 .flex-row {
@@ -94,6 +118,7 @@ p {
 .percent {
   font-weight: bold;
   color: #e57a3e;
+  font-size:2rem;
 }
 
 /* First section (centered layout) */
@@ -159,6 +184,22 @@ p {
   height: 25px;
 }
 
+.payment-methods a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.payment-methods a:hover {
+  transform: scale(1.1); 
+}
+
+.payment-icon {
+  width: 50px; 
+  height: auto;
+  cursor: pointer;
+  display: block;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .flex-row,
@@ -182,20 +223,6 @@ p {
 }
 
 
-/* Frame 1171276391 */
-
-/* Auto layout */
-/* display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
-
-width: 370px;
-height: 85px; */
+/* Frame 1171276405 */
 
 
-/* Inside auto layout */
-/* flex: none;
-order: 0;
-flex-grow: 0; */
