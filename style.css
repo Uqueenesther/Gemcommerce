@@ -288,8 +288,54 @@ p {
     margin-bottom: 1rem;
   }
 }
-
+ 
 @media (max-width: 600px) {
+
+  first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+}
+  .payment-section {
+    flex-direction: column;
+    text-align: center;
+        margin-top: 0px
+  }
+
+  .payment-info {
+    justify-content: center;
+  
+  }
+
+  .payment-methods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .payment-icon {
+    width: 40px;
+  }
+}
+
+@media (max-width: 390px) {
+      .feature-image img {
+        max-width: 80%;
+        height: auto;
+    }
+
+  first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    padding: 20px;
+}
   .payment-section {
     flex-direction: column;
     text-align: center;
