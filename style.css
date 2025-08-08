@@ -255,7 +255,7 @@ p {
   p {
     font-size: 1rem;
   }
-
+  
   .button {
     padding: 10px 20px;
     width: 100%;
@@ -274,11 +274,18 @@ p {
     text-align: center;
   }
 
+  .key-points-label {
+    padding: 1.5rem;
+      text-transform: capitalize;
+  }
+
   .second-section {
   background-color: #F8F8F8;
   margin-top: 0rem;
 }
-
+  .payment-section {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -290,7 +297,7 @@ p {
 
   .payment-info {
     justify-content: center;
-    gap: 30px;
+  
   }
 
   .payment-methods {
