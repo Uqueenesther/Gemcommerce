@@ -260,7 +260,7 @@ p {
   .button {
     padding: 15px 20px;
     text-align: center;
-    
+    width: 85%;
   }
 
   .container {
@@ -357,5 +357,10 @@ p {
 
   .payment-icon {
     width: 40px;
+  }
+  .button {
+    padding: 10px 20px;
+    text-align: center;
+    width: 85%;
   }
 }
